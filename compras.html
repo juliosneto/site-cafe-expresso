@@ -35,8 +35,8 @@
                         <label for="user_name" style="margin-right: 30px;">Nome:</label>
                         <input id="user_name" type="text" name="user_name" style="width: 200px;">
 
-                        <label for="CPF" style="margin-right: 35px; margin-left: 26px;">Cpf:</label>
-                        <input id="CPF" type="text" name="CPF" style="width: 120px;" maxlength="11" pattern="[0-9]{11}" onblur="getLength()">
+                        <label for="CPF" style="margin-right: 35px; margin-left: 26px;">CPF:</label>
+                        <input id="CPF" type="text" name="CPF" style="width: 120px;" maxlength="11" pattern="[0-9]{11}" onblur="validarCPF()">
                     </div>  
                     <div class="boxFieldset">
                         <label for="telefone" style="margin-right: 13px;">Telefone:</label>
@@ -58,14 +58,14 @@
                             <select name="maquinas" id="maquinas">
                                 <option value="">---</option>
                                 <optgroup label="Dolce Gusto">
-                                    <option value="1">Piccolo</option>
+                                    <option value="340">Piccolo</option>
                                 </optgroup>
                                 <optgroup label="Nespresso">
-                                    <option value="2">Inissia C40</option>
-                                    <option value="3">U C50</option>
+                                    <option value="300">Inissia C40</option>
+                                    <option value="400">U C50</option>
                                 </optgroup>
                                 <optgroup label="Senseo">
-                                    <option value="4">HD7811/96</option>
+                                    <option value="230">HD7811/96</option>
                                 </optgroup>
                             </select>
                         </div>
@@ -75,25 +75,25 @@
                             <select name="saches" id="saches">
                                 <option value="">---</option>
                                 <optgroup label="Dolce Gusto">
-                                    <option value="1">Expresso</option> 
-                                    <option value="2">Descafeinado</option> 
+                                    <option value="24">Expresso</option> 
+                                    <option value="21">Descafeinado</option> 
                                 </optgroup>
                                 <optgroup label="Nespresso">
-                                    <option value="3">Livanto</option>
-                                    <option value="4">Ristretto</option>
-                                    <option value="5">Vanilio</option>
+                                    <option value="35">Livanto</option>
+                                    <option value="42">Ristretto</option>
+                                    <option value="46">Vanilio</option>
                                 </optgroup>
                                 <optgroup label="Senseo">
-                                    <option value="6">Clássico</option>
-                                    <option value="7">Intenso</option>
+                                    <option value="14">Clássico</option>
+                                    <option value="14">Intenso</option>
                                 </optgroup>
                             </select>
                         </div>
                         
                         <label for="selecionados">Selecionados:</label>
-                        <button onclick="remover()">Remover</button>
+                        <input type="button" value="Remover" onclick="remover()" style="margin-left: 42px;">
                         <textarea name="selecionados" readonly id="selecionados"></textarea>
-                        <label for="valor" style="margin-right: 74px;">Valor:</label>
+                        <label for="valor" style="margin-right: 41px;">Valor (R$):</label>
                         <input id="valor" type="text" name="valor" readonly style="width: 80px;">
                     </div>
                 </fieldset>
