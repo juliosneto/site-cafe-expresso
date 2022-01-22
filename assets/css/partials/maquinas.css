@@ -1,0 +1,33 @@
+.tabInfo {
+    border: solid;
+    border-collapse: collapse;
+    margin-top: 6px;
+    background-color: #FFFFFF;
+    color: #573218;
+    font-family: Arial;
+    font-family: Ubuntu;
+}
+
+td, th {
+    border: 2px solid #664422;
+    padding: var(6px, 12px, 6px, 12px);
+}
+
+.linTH {
+    color: #FFFFFF;
+    background-color: #907968;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.colTH {
+    color: #573218;
+    background-color: #EACEAC;
+    text-align: left;
+}
+
+.preco {
+    color: #CC0000;
+    font-weight: bold;
+    vertical-align: middle;
+}

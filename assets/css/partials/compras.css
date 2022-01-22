@@ -1,0 +1,64 @@
+form {
+    float: right;
+}
+
+fieldset {
+    background-color: #907968;
+}
+
+.fsForm {
+    align-items: center;
+    width: 524px;
+    clear: both;
+}
+
+.fsResEsq {
+    width: 200px;
+    height: 280px;
+    float: left;
+}
+
+.fsResDir {
+    width: 280px;
+    height: 280px;
+    float: right;
+}
+
+.boxFieldset {
+    display: flex;
+    margin-top: 18px;
+}
+
+._boxFieldset {
+    margin-top: 18px;
+    padding-bottom: 3px;
+}
+
+.boxFieldsetProd {
+    margin-top: 18px;
+}
+
+.boxFieldsetForma {
+    margin-top: 15px;
+}
+
+.selectSt {
+    padding-bottom: 12px;
+}
+
+button {
+    margin-left: 43px;
+}
+
+textarea {
+    width: 200px;
+    height: 80px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.botao {
+    margin-right: 5px;
+    margin-top: 15px;
+    float: right;
+}

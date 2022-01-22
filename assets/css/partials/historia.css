@@ -1,0 +1,28 @@
+.historia {
+    text-align: justify; 
+}
+
+#hist{
+   display:flex;
+}
+
+.fonte {
+    text-align: right;
+    font-style: italic;
+}
+
+.imgdir {
+    margin: var(12px 0px 4px 12px);
+    float: right;
+    margin-left: 12px;
+    margin-top:12px;
+    margin-bottom:4px;
+}
+
+.imgesq {
+    margin: var(12px 12px 4px 0px);
+    float: left;
+    margin-right: 12px;
+    margin-top:12px;
+    margin-bottom:4px;
+}

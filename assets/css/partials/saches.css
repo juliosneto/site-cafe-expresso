@@ -1,0 +1,36 @@
+.sache-display {
+    display: none;
+    width: 280px;
+    height: 430px;
+    text-align: center;
+}
+
+.sache-display-active {
+    display: block;
+    width: 280px;
+    height: 430px;
+    text-align: center;
+}
+
+.sache-display li {
+    text-align: justify;
+}
+
+.carrossel {
+    overflow: hidden;
+    width: 180px;
+    height: 180px;
+    margin-left: 50px;
+}
+
+.container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+}
+
+.container img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+}
